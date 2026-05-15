@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clonar o repositório
+      - name: Clonar o Repositório
         uses: actions/checkout@v4
 
       - name: Configurar o Java21
