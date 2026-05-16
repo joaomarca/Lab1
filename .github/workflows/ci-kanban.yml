@@ -32,3 +32,4 @@ jobs:
       # O comando real que nós digitávamos no terminal
       - name: Compilar e Testar com Maven
         run: mvn clean package
+        #comentario para aula passada
