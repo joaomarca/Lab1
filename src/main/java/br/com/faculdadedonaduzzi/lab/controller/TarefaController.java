@@ -48,7 +48,7 @@ public class TarefaController {
 
     @GetMapping("/HEALTH")
     public String getStatus() {
-        return "OK"
+        return "OK";
     }
     //erro proposital adicionado para desafio atividade
 }
