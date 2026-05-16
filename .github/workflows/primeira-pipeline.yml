@@ -4,7 +4,7 @@ name: Meu Primeiro Robô de CI
 on:
   push:
     branches:
-      - master
+      - main
 
 # O QUE ELE VAI FAZER?
 jobs:
