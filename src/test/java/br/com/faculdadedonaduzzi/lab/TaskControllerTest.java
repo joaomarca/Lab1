@@ -20,7 +20,7 @@ public class TaskControllerTest {
 
     @Test
     public void testGetAllTasks() throws Exception {
-        mockMvc.perform(get("/tarefa"))
+        mockMvc.perform(get("/tarefas"))
                 .andExpect(status().isOk());
     }
 }
